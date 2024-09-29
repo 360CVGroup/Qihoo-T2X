@@ -157,4 +157,8 @@ section.banner {
 .column .card {
     height: 100%;
 }
+.video {
+  height: 100%;     /* 高度自动，保持视频的宽高比 */
+}
+
 
