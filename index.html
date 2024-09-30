@@ -7,7 +7,7 @@
     <!-- Replace the content tag with appropriate information -->
     <!-- <meta name="description" content="DESCRIPTION META TAG"> -->
     <meta property="og:title"
-        content="Qihoo-T2X: An Innovative Efficiency-Focused Diffusion Transformer via Proxy Tokens for Text-to-Any-Task" />
+        content="Qihoo-T2X: An Efficient Proxy-Tokenizied Diffusion Transformer for Text-to-Any-Task" />
     <!-- <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG" /> -->
     <meta property="og:url" content="https://qihoot2x.github.io/" />
     <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
@@ -26,7 +26,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <title>QiHOO-T2X: An Innovative Efficiency-Focused Diffusion Transformer via Proxy Tokens for Text-to-Any-Task;</title>
+    <title>Qihoo-T2X: An Efficient Proxy-Tokenizied Diffusion Transformer for Text-to-Any-Task;</title>
     <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
@@ -226,7 +226,7 @@
                 <h2 class="title is-3">Method</h2></div>
                 <img src="static/images/QihooT2X_pipeline.png" alt="method" />
                 <p>The image or video undergoes processing through a 3D VAE, followed by noise addition, patch embedding, and positional encoding to generate latent tokens. 
-                    We replace global attention with proxy token attention to establish contextual associations and employ visual cross-attention to propagate this information to all tokens, thereby reducing computational redundancy. Moreover, texture detail modeling is enhanced through window attention and shifted window attention.
+                    We replace global attention with proxy-tokenized attention to establish contextual associations and employ visual cross-attention to propagate this information to all tokens, thereby reducing computational redundancy. Moreover, texture detail modeling is enhanced through window attention and shifted window attention.
                 </p>
                 
             </div>
@@ -241,7 +241,7 @@
                 <div class="columns is-centered has-text-centered">
                 <h2 class="title is-3">Comparison of Computational Complexity </h2></div>
                 <img src="static/images/efficiency.png" alt="efficiency" />
-                <p>PT-DiT effectively reduces the computational complexity in both image and video generation tasks. The GFLOPs of PT-DiT/H are significantly less than Lumina-Next across multiple scales. Specifically, at resolutions of 512 and 2048, PT-DiT/H achieves complexity reduction of 82.0% and 82.5% respectively. Since the T2V version of EasyAnimateV4 employs HunyuanDiT with 3D full attention, its memory consumption increases dramatically with the number of video frames. In contrast, PT-DiT, which also utilizes 3D spatial-temporal modeling, experiences only a slight increase in memory consumption due to its well-designed proxy token attention mechanism.</p>
+                <p>PT-DiT effectively reduces the computational complexity in both image and video generation tasks. The GFLOPs of PT-DiT/H are significantly less than Lumina-Next across multiple scales. Specifically, at resolutions of 512 and 2048, PT-DiT/H achieves complexity reduction of 82.0% and 82.5% respectively. Since the T2V version of EasyAnimateV4 employs HunyuanDiT with 3D full attention, its memory consumption increases dramatically with the number of video frames. In contrast, PT-DiT, which also utilizes 3D spatial-temporal modeling, experiences only a slight increase in memory consumption due to its well-designed proxy-tokenized attention mechanism.</p>
                 
             </div>
             </div>
@@ -860,7 +860,7 @@
         <div class="container is-max-desktop content">
             <h2 class="title">BibTeX</h2>
             <pre><code>@misc{wang2024qihoot2xefficiencyfocuseddiffusiontransformer,
-                title={Qihoo-T2X: An Efficiency-Focused Diffusion Transformer via Proxy Tokens for Text-to-Any-Task}, 
+                title={Qihoo-T2X: An Efficient Proxy-Tokenizied Diffusion Transformer for Text-to-Any-Task}, 
                 author={Jing Wang and Ao Ma and Jiasong Feng and Dawei Leng and Yuhui Yin and Xiaodan Liang},
                 year={2024},
                 eprint={2409.04005},
