@@ -122,21 +122,13 @@
                     <h2 class="title is-3">Abstract</h2>
                     <div class="content has-text-justified">
                         <p>
-                            The global self-attention mechanism in diffusion transformers involves redundant
-                            computation due to the sparse and redundant nature of visual information, and
-                            the attention map of tokens within a spatial window shows significant similarity.
-                            To address this redundancy, we propose the <strong>P</strong>roxy <strong>T</strong>oken <strong>D</strong>iffusion <strong>T</strong>ransformer (<strong>PT-DiT</strong>),
-                            which employs sparse representative token attention (where the number of representative tokens is much smaller than the total number of tokens)
-                            to model global visual information efficiently. Specifically, within each transformer block, we compute an averaging token from each spatial-temporal window to serve as a proxy token for that region. The global semantics are cap-
-                            tured through the self-attention of these proxy tokens and then injected into all
-                            latent tokens via cross-attention. Simultaneously, we introduce window and shift
-                            window attention to address the limitations in detail modeling caused by the
-                            sparse attention mechanism. Building on the well-designed PT-DiT, we further
-                            develop the <strong>Qihoo-T2X</strong> family, which includes a variety of models for T2I, T2V,
-                            and T2MV tasks. Experimental results show that PT-DiT achieves competitive
-                            performance while reducing the computational complexity in both image and
-                            video generation tasks (e.g., a 48% reduction compared to DiT and a 35% re-
-                            duction compared to PixArt-<em>α</em>). 
+                            The global self-attention mechanism in diffusion transformers involves redundant computation due to the sparse and redundant nature of visual information, and the attention map of tokens within a spatial window shows significant similarity.
+                            To address this redundancy, we propose the \textbf{P}roxy-\textbf{T}okenzied \textbf{D}iffusion \textbf{T}ransformer (\textbf{PT-DiT}), which employs sparse representative token attention (where the number of representative tokens is much smaller than the total number of tokens) to model global visual information efficiently.
+                            Specifically, within each transformer block, we compute an averaging token from each spatial-temporal window to serve as a proxy token for that region.
+                            The global semantics are captured through the self-attention of these proxy tokens and then injected into all latent tokens via cross-attention. 
+                            Simultaneously, we introduce window and shift window attention to address the limitations in detail modeling caused by the sparse attention mechanism.
+                            Building on the well-designed PT-DiT, we further develop the \textbf{Qihoo-T2X} family, which includes a variety of models for T2I, T2V, and T2MV tasks.
+                            Experimental results show that PT-DiT achieves competitive performance while reducing the computational complexity in both image and video generation tasks (e.g., a 48\% reduction compared to DiT and a 35\% reduction compared to PixArt-$\alpha$).
                         </p>
                     </div>
                 </div>
