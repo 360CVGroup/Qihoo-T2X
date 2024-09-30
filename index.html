@@ -121,18 +121,22 @@
                 <div class="column is-four-fifths">
                     <h2 class="title is-3">Abstract</h2>
                     <div class="content has-text-justified">
-                        <p>The global self-attention mechanism in diffusion transformers involves redundant computation 
-                            due to the sparse and redundant nature of visual information. And the attention map of tokens 
-                            within a spatial window shows significant similarity. To address this redundancy, we propose 
-                            the <strong>P</strong>roxy <strong>T</strong>oken <strong>D</strong>iffusion <strong>T</strong>ransformer (<strong>PT-DiT</strong>), 
+                        <p>
+                            The global self-attention mechanism in diffusion transformers involves redundant
+                            computation due to the sparse and redundant nature of visual information, and
+                            the attention map of tokens within a spatial window shows significant similarity.
+                            To address this redundancy, we propose the <strong>P</strong>roxy <strong>T</strong>oken <strong>D</strong>iffusion <strong>T</strong>ransformer (<strong>PT-DiT</strong>),
                             which employs sparse representative token attention (where the number of representative tokens is much smaller than the total number of tokens)
-                            to efficiently model global visual information. Specifically, in each transformer block, we randomly sample one token from each spatial-temporal
-                            window to serve as a proxy token for that region. The global semantics are captured through the self-attention of these proxy tokens and then 
-                            injected into all latent tokens via cross-attention. Simultaneously, we introduce window attention and shifted window attention to address the
-                            limitations in detail modeling caused by the sparse attention mechanism. Building on the well-designed PT-DiT, we further develop the Qihoo-T2X 
-                            family, which includes a variety of models for T2I, T2V and T2MV tasks. Experimental results show that PT-DiT achieves competitive performance
-                            while reducing the computational complexity in both image and video generation tasks (e.g., a 48% reduction compared to DiT and a 35% reduction
-                            compared to Pixart-<em>α</em>).
+                            to model global visual information efficiently. Specifically, within each transformer block, we compute an averaging token from each spatial-temporal window to serve as a proxy token for that region. The global semantics are cap-
+                            tured through the self-attention of these proxy tokens and then injected into all
+                            latent tokens via cross-attention. Simultaneously, we introduce window and shift
+                            window attention to address the limitations in detail modeling caused by the
+                            sparse attention mechanism. Building on the well-designed PT-DiT, we further
+                            develop the <strong>Qihoo-T2X</strong> family, which includes a variety of models for T2I, T2V,
+                            and T2MV tasks. Experimental results show that PT-DiT achieves competitive
+                            performance while reducing the computational complexity in both image and
+                            video generation tasks (e.g., a 48% reduction compared to DiT and a 35% re-
+                            duction compared to PixArt-<em>α</em>). 
                         </p>
                     </div>
                 </div>
@@ -245,7 +249,7 @@
                 <div class="columns is-centered has-text-centered">
                 <h2 class="title is-3">Comparison of Computational Complexity </h2></div>
                 <img src="static/images/efficiency.png" alt="efficiency" />
-                <p>PT-DiT effectively reduces the computational complexity in both image and video generation tasks. Moreover, even though Our-H is equipped with 3D attention, it is still less computationally complex than EasyAnimate with 1D attention.</p>
+                <p>PT-DiT effectively reduces the computational complexity in both image and video generation tasks. The GFLOPs of PT-DiT/H are significantly less than Lumina-Next across multiple scales. Specifically, at resolutions of 512 and 2048, PT-DiT/H achieves complexity reduction of 82.0% and 82.5% respectively. Since the T2V version of EasyAnimateV4 employs HunyuanDiT with 3D full attention, its memory consumption increases dramatically with the number of video frames. In contrast, PT-DiT, which also utilizes 3D spatial-temporal modeling, experiences only a slight increase in memory consumption due to its well-designed proxy token attention mechanism.</p>
                 
             </div>
             </div>
