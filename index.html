@@ -53,7 +53,7 @@
             <div class="container is-max-desktop">
                 <div class="columns is-centered">
                     <div class="column has-text-centered">
-                        <h1 class="title is-1 publication-title" style="font-size:45px;"><br>Qihoo-T2X: An Efficient Proxy-Tokenzied Diffusion Transformer for Text-to-Any-Task</h1>
+                        <h1 class="title is-1 publication-title" style="font-size:45px;"><br>Qihoo-T2X: An Efficient Proxy-Tokenizied Diffusion Transformer for Text-to-Any-Task</h1>
                         <div class="is-size-5 publication-authors">
                             <!-- Paper authors -->
                             <span class="author-block">
@@ -123,7 +123,7 @@
                     <div class="content has-text-justified">
                         <p>
                             The global self-attention mechanism in diffusion transformers involves redundant computation due to the sparse and redundant nature of visual information, and the attention map of tokens within a spatial window shows significant similarity.
-                            To address this redundancy, we propose the <strong>P</strong>roxy-<strong>T</strong>okenzied <strong>D</strong>iffusion <strong>T</strong>ransformer (<strong>PT-DiT</strong>), which employs sparse representative token attention (where the number of representative tokens is much smaller than the total number of tokens) to model global visual information efficiently.
+                            To address this redundancy, we propose the <strong>P</strong>roxy-<strong>T</strong>okenizied <strong>D</strong>iffusion <strong>T</strong>ransformer (<strong>PT-DiT</strong>), which employs sparse representative token attention (where the number of representative tokens is much smaller than the total number of tokens) to model global visual information efficiently.
                             Specifically, within each transformer block, we compute an averaging token from each spatial-temporal window to serve as a proxy token for that region.
                             The global semantics are captured through the self-attention of these proxy tokens and then injected into all latent tokens via cross-attention. 
                             Simultaneously, we introduce window and shift window attention to address the limitations in detail modeling caused by the sparse attention mechanism.
