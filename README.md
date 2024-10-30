@@ -2,7 +2,7 @@
 
 This is the official reproduction of [Qihoo-T2X](https://360cvgroup.github.io/Qihoo-T2X/), which represents a groundbreaking DiT architecture paradigm designed for Text-to-Any tasks.
 
-**[QIHOO-T2X: AN EFFICIENT PROXY-TOKENIZED DIFFUSION TRANSFORMER FOR TEXT-TO-ANY-TASK](https://arxiv.org/pdf/2409.04005)** 
+**[QIHOO-T2X: AN EFFICIENT PROXY-TOKENIZED DIFFUSION TRANSFORMER FOR TEXT-TO-ANY-TASK](https://arxiv.org/pdf/2409.04005)**
 </br>
 Jing Wang*, Ao Ma*, Jiasong Feng*, Dawei Leng†‡, Yuhui Yin, Xiaodan Liang‡(*Equal Contribution, †Project Lead, ‡Corresponding Authors)
 </br>
