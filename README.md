@@ -1,10 +1,10 @@
-# Qihoo-T2X
+# (ICLR 2025) Qihoo-T2X
 
 This is the official reproduction of [Qihoo-T2X](https://360cvgroup.github.io/Qihoo-T2X/), which represents a groundbreaking DiT architecture paradigm designed for Text-to-Any tasks.
 
 **[QIHOO-T2X: AN EFFICIENT PROXY-TOKENIZED DIFFUSION TRANSFORMER FOR TEXT-TO-ANY-TASK](https://arxiv.org/pdf/2409.04005)**
 </br>
-Jing Wang*, Ao Ma*, Jiasong Feng*, Dawei Leng†‡, Yuhui Yin, Xiaodan Liang‡(*Equal Contribution, †Project Lead, ‡Corresponding Authors)
+Jing Wang*, Ao Ma*†, Jiasong Feng*, Dawei Leng‡, Yuhui Yin, Xiaodan Liang‡(*Equal Contribution, †Project Lead, ‡Corresponding Authors)
 </br>
 
 
@@ -12,7 +12,9 @@ This is an ongoing project, and we will continue to refine and enhance it over t
 
 
 ## 📰 News
-- **[2024.09.12]** 🔥 We created a project [homepage](https://360cvgroup.github.io/Qihoo-T2X/) featuring galleries for Qihoo-T2I, with upcoming sections for Qihoo-T2V and Qihoo-T2MV.
+- **[2025.02.11]** 🔥 We have open-sourced our model in [Ascend/MindSpeed-MM](https://gitee.com/ascend/MindSpeed-MM/tree/master/examples/qihoo_t2x#https://gitee.com/link?target=https%3A%2F%2Fhuggingface.co%2FQwen%2FQwen2-VL-2B-Instruct%2Ftree%2Fmain).
+- **[2025.01.22]** 🔥 Our paper has been accepted for presentation at ICLR 2025.
+- **[2024.09.12]** We created a project [homepage](https://360cvgroup.github.io/Qihoo-T2X/) featuring galleries for Qihoo-T2X
 
 
 ## We Are Hiring
