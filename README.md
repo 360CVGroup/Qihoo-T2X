@@ -12,7 +12,7 @@ This is an ongoing project, and we will continue to refine and enhance it over t
 
 
 ## 📰 News
-- **[2025.02.11]** 🔥 We have open-sourced our model in [Ascend/MindSpeed-MM](https://gitee.com/ascend/MindSpeed-MM/tree/master/examples/qihoo_t2x#https://gitee.com/link?target=https%3A%2F%2Fhuggingface.co%2FQwen%2FQwen2-VL-2B-Instruct%2Ftree%2Fmain).
+- **[2025.02.11]** 🔥 We have open-sourced our model and inference code in [Ascend/MindSpeed-MM](https://gitee.com/ascend/MindSpeed-MM/tree/master/examples/qihoo_t2x#https://gitee.com/link?target=https%3A%2F%2Fhuggingface.co%2FQwen%2FQwen2-VL-2B-Instruct%2Ftree%2Fmain).
 - **[2025.01.22]** 🔥 Our paper has been accepted for presentation at ICLR 2025.
 - **[2024.09.12]** We created a project [homepage](https://360cvgroup.github.io/Qihoo-T2X/) featuring galleries for Qihoo-T2X
 
