@@ -11,9 +11,6 @@ Jing Wang*, Ao Ma*†, Jiasong Feng*, Dawei Leng‡, Yuhui Yin, Xiaodan Liang‡
 [![weixin](https://img.shields.io/badge/-WeChat@量子位-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/UUqtHn7f8zdeINA9eUNlFg)
 
 
-This is an ongoing project, and we will continue to refine and enhance it over time.
-
-
 ## 📰 News
 - **[2025.02.11]** 🔥 We have open-sourced our model and inference code in [Ascend/MindSpeed-MM](https://gitee.com/ascend/MindSpeed-MM/tree/master/examples/qihoo_t2x#https://gitee.com/link?target=https%3A%2F%2Fhuggingface.co%2FQwen%2FQwen2-VL-2B-Instruct%2Ftree%2Fmain).
 - **[2025.01.22]** 🔥 Our paper has been accepted for presentation at ICLR 2025.
