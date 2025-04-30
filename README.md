@@ -8,7 +8,7 @@ Jing Wang*, Ao Ma*†, Jiasong Feng*, Dawei Leng‡, Yuhui Yin, Xiaodan Liang‡
 </br>
 [![arXiv](https://img.shields.io/badge/arXiv-2409.04005-b31b1b.svg)](https://arxiv.org/pdf/2409.04005)
 [![Project Page](https://img.shields.io/badge/Project-Website-green)](https://360cvgroup.github.io/Qihoo-T2X/)
-[![weixin](https://img.shields.io/badge/-WeChat@量子位-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/UUqtHn7f8zdeINA9eUNlFg)
+[![weixin](https://img.shields.io/badge/-WeChat@量子位-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/UUqtHn7f8zdeINA9eUNlFg) 
 
 
 ## 📰 News
